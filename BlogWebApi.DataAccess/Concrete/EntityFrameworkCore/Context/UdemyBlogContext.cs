@@ -8,7 +8,7 @@ namespace BlogWebApi.DataAccess.Concrete.EntityFrameworkCore.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"server=LAPTOP-F436T3TL\SQL2017; database=FinalProjeBlogDb; user id=sa; password=1;");
+            optionsBuilder.UseSqlServer(@"server=LAPTOP-F436T3TL\SQL2017; database=ciBlogDb; user id=sa; password=1;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
